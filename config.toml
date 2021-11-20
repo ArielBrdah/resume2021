@@ -1,0 +1,277 @@
+# Page settings
+
+baseURL = "https://arielberdah.netlify.app/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Ariel"
+    description = "Web/Software Developer"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ariel Berdah"
+        tagline = "Web/Software Developer"
+        avatar = "profile.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Netanya, Central Disctrict"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:0585020390"
+        text = "0585020390"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:acberdah@gmail.com"
+        text = "acebrdah@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "http://arielberdah.netlify.app"
+        text = "arielberdah.netlify.app"
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/React"
+        [[params.skills.list.items]]
+        details = "Python/PHP/C#"
+        [[params.skills.list.items]]
+        details = "Node.js"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Responsive Web Design - JavaScript Algorithms and Data Structures - FrontEnd Development"
+        university = "FreeCodeCamp - Certification - HTML, CSS, JavaScript, BootStrap, JQuery, React, SASS"
+        dates = "2018 - 2020"
+        [[params.education.list]]
+        degree = "Java FullStack Development"
+        university = "Certification John Bryce - TLV"
+        dates = "2017 - 2018"
+        [[params.education.list]]
+        degree = "BSc Maths and Computer Science"
+        university = "Merkaz Akademay Lev - Machon Lev"
+        dates = "2013 - 2016"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+        [[params.languages.list]]
+        name = "Hebrew"
+        level = "Fluent"
+        [[params.languages.list]]
+        name = "French"
+        level = "Mother Tongue"
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Music"
+        [[params.interests.list]]
+        name = "Book"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Graduate of a programming course Java Full-Stack 3 years ago. Building quality websites and applications with HTML, CSS, JavaScript. I like backend development, I have experience in java and especially in NodeJS. I have a deep connection with the MySQL database. I am looking for a company that could teach me more and in return become an added value."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Developper"
+        dates = "2021 - Present"
+        company = "BroCorp"
+        details = "I developed a lot of site for the different activities of the company. I took care of the creation of a CRM: the server part was developed in NodeJS, and use a MySQL database. For the visual rendering, I used a view engine: EJS. For the Test Driven Development I used JEST. designate an API. implement rendering in a theme."
+        [[params.experience.list.items]]
+        details = "Client Side, SSR (Server Side Rendering): HTML, CSS, JavaScript, EJS, Php"
+        [[params.experience.list.items]]
+        details = "Server Side: NodeJs, Express, Php"
+        [[params.experience.list.items]]
+        details = "Test Driven Development: JEST"
+
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2020 - April - June"
+        company = "Technicien Soft Solution"
+        details = "I had to make sure of the creation of a fake robot which would record the information submitted during a conversation and send it to the database."
+        [[params.experience.list.items]]
+        details = "Front-End: HTML, CSS, JavaScript, JQuery"
+        
+        [[params.experience.list]]
+        title = "Junior Software Developer"
+        dates = "2018 - May - November"
+        company = "Manage Your Trip"
+        details = "I was working on the backend part, my role was to program a data integration feature from a transmitted file. example: the client sends an excel file, I had to parse it and take the data and integrate them into the database and return a result according to the file provided."
+        [[params.experience.list.items]]
+        details = "Back-End: C#, MySQL, POSTMAN"
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Devops Contest"
+        meta = "contest/bootcamp - 2019"
+        tagline = "Interested in the field of devops, after having passed the entrance exam which consists in developing in LUA a script which will detect financial transactions and possible errors. The DevLeap company taught me a lot in this competition bootcamp: about the devops jobs. We go through each area with a mini project or exercises to be carried out at the end of each learning activity. It was extraordinary."
+        [[params.experience.list.items]]
+        details = "Programming/Scripting languages: Python, Bash"
+        [[params.experience.list.items]]
+        details = "Containerization: Docker, Docker-Compose"
+        [[params.experience.list.items]]
+        details = "VCS: GIT/GITHUB"
+        [[params.experience.list.items]]
+        details = "API-GATEWAY/PROXY/SERVER: NGINX"
+
+        [[params.projects.list]]
+        title = "Project Coupon System"
+        meta = "Open Source - 2017"
+        tagline = "System coupon is a kernel. the project uses groupon's business model: Admin - Company - Customer. So companies post their product on our platform and customers buy. We developed the API and designed the database. Then we go to the client part where we focus on a simplistic UI."
+        [[params.experience.list.items]]
+        details = "Back-End: Java, J2Ee, Servlets, Web Services, Tomcat, JellyFish"
+        [[params.experience.list.items]]
+        details = "DataBase: MySQL"
+        [[params.experience.list.items]]
+        details = "Front-End: JavaScript, AngularJS"
+        
+        
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Works"
+        [[params.information.list.items]]
+        details = "2019 - 2020 · Security Guard"
+        [[params.information.list.items]]
+        details = "2019 · HotLine"
+        [[params.information.list.items]]
+        details = "2018 · Sellers : Courses"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Art, Music, Philosophy, Photography, Travelling, Torah"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/arielbrdah"
+        title = "arielbrdah"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/arielcberdah"
+        title = "arielcberdah"
+
+
+
+
+
