@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://arielberdah.netlify.app"
+baseURL = "https://arielberdah.netlify.app/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -48,7 +48,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "acebrdah@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "http://arielberdah.netlify.app"
+        url = "http://arielberdah.netlify.app/"
         text = "arielberdah.netlify.app"
 
 
