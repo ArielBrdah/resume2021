@@ -175,6 +175,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Server Side: NodeJs, Express, Php"
         [[params.experience.list.items]]
         details = "Test Driven Development: JEST"
+        [[params.experience.list.items]]
+        details = "VCS: GIT/GITHUB"
+        [[params.experience.list.items]]
+        details = "Back-End: C#, MySQL, POSTMAN"
+        [[params.experience.list.items]]
+        details = "Programming/Scripting languages: Bash, sed"
 
         [[params.experience.list]]
         title = "Web Developer"
@@ -183,6 +189,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "I had to make sure of the creation of a fake robot which would record the information submitted during a conversation and send it to the database."
         [[params.experience.list.items]]
         details = "Front-End: HTML, CSS, JavaScript, JQuery"
+
+        [[params.experience.list]]
+        title = "DevOPS"
+        dates = "2019"
+        company = "DevLeap"
+        details = "Contest to be DevOPS"
+        [[params.experience.list.items]]
+        details = "Programming/Scripting languages: Python, Bash"
+        [[params.experience.list.items]]
+        details = "Containerization: Docker, Docker-Compose"
+        [[params.experience.list.items]]
+        details = "VCS: GIT/GITHUB"
+        [[params.experience.list.items]]
+        details = "API-GATEWAY/PROXY/SERVER: NGINX"
         
         [[params.experience.list]]
         title = "Junior Software Developer"
@@ -206,14 +226,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Devops Contest"
         meta = "contest/bootcamp - 2019"
         tagline = "Interested in the field of devops, after having passed the entrance exam which consists in developing in LUA a script which will detect financial transactions and possible errors. The DevLeap company taught me a lot in this competition bootcamp: about the devops jobs. We go through each area with a mini project or exercises to be carried out at the end of each learning activity. It was extraordinary."
-        [[params.experience.list.items]]
-        details = "Programming/Scripting languages: Python, Bash"
-        [[params.experience.list.items]]
-        details = "Containerization: Docker, Docker-Compose"
-        [[params.experience.list.items]]
-        details = "VCS: GIT/GITHUB"
-        [[params.experience.list.items]]
-        details = "API-GATEWAY/PROXY/SERVER: NGINX"
+      
 
         [[params.projects.list]]
         title = "Project Coupon System"
