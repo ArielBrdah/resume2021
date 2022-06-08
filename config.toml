@@ -13,7 +13,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Ariel"
-    description = "Web/Software Developer"
+    description = "Web/Full-Stack Developer"
 
 
     primaryColor = "#54B689"
@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Ariel Berdah"
-        tagline = "Web/Software Developer"
+        tagline = "Web/Full-Stack Developer"
         avatar = "profile.jpg"
 
 
@@ -45,7 +45,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:acberdah@gmail.com"
-        text = "acebrdah@gmail.com"
+        text = "acberdah@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "http://arielberdah.netlify.app/"
@@ -152,7 +152,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Graduate of a programming course Java Full-Stack 3 years ago. Building quality websites and applications with HTML, CSS, JavaScript. I like backend development, I have experience in java and especially in NodeJS. I have a deep connection with the MySQL database. I am looking for a company that could teach me more and in return become an added value."
+        text = "Graduate of a programming course Java Full-Stack 3 years ago. Building quality websites and applications with HTML, CSS, JavaScript. I like backend development, I have experience in java and especially in NodeJS. I have a deep connection with the MySQL database."
 
 
 
@@ -164,9 +164,34 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.experience]
         enable = true
 
+        
+        [[params.experience.list]]
+        title = "Cloud Deployment / Full-Stack Developper"
+        dates = "2022 - Present"
+        company = "Nerd148"
+        details = "I took care of the installation of a server for the different services ( pm2, nginx ). Fixed bugs during the build stage. Deployment on the digital ocean cloud."
+        [[params.experience.list.items]]
+        details = "Networking: SSH, DigitalOcean Cloud"
+        [[params.experience.list.items]]
+        details = "Blockchain: Solidity, Solana (spl-token: create token and account, mint token, make an NFT)"
+        [[params.experience.list.items]]
+        details = "Cloud: Digital Ocean - Droplet and apps"
+        [[params.experience.list.items]]
+        details = "Server: Nginx"
+        [[params.experience.list.items]]
+        details = "Deployment, task-runner: minify files ans used Gzip to compress the project for better web performance"
+        [[params.experience.list.items]]
+        details = "Process Manager: PM2"
+        [[params.experience.list.items]]
+        details = "VCS: GIT/GITHUB"
+        [[params.experience.list.items]]
+        details = "Back-End: MySQL, POSTMAN"
+        [[params.experience.list.items]]
+        details = "Programming/Scripting languages: Bash"
+
         [[params.experience.list]]
         title = "Software Developper"
-        dates = "2021 - Present"
+        dates = "2021 - 2022"
         company = "BroCorp"
         details = "I developed a lot of site for the different activities of the company. I took care of the creation of a CRM: the server part was developed in NodeJS, and use a MySQL database. For the visual rendering, I used a view engine: EJS. For the Test Driven Development I used JEST. designate an API. implement rendering in a theme."
         [[params.experience.list.items]]
@@ -178,7 +203,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "VCS: GIT/GITHUB"
         [[params.experience.list.items]]
-        details = "Back-End: C#, MySQL, POSTMAN"
+        details = "Back-End: MySQL, POSTMAN"
         [[params.experience.list.items]]
         details = "Programming/Scripting languages: Bash, sed"
 
@@ -254,6 +279,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.information.list]]
         title = "Works"
+        [[params.information.list.items]]
+        details = "2021 · Web Developer"
         [[params.information.list.items]]
         details = "2019 - 2020 · Security Guard"
         [[params.information.list.items]]
